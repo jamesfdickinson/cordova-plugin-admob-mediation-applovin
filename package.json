@@ -1,0 +1,36 @@
+{
+    "name": "cordova-plugin-admob-mediation-applovin-jd",
+    "version": "1.5.0",
+    "description": "AdMob Mediation Adapter for Facebook Audience Network",
+    "cordova": {
+        "id": "cordova-plugin-admob-mediation-applovin-jd",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-applovin.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova",
+        "plugin",
+        "ad",
+        "admob",
+        "facebook",
+        "mediation"
+    ],
+    "author": {
+        "name": "Jimmy Dickinson",
+        "url": "https://github.com/jamesfdickinson"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-applovin/issues"
+    },
+    "homepage": "https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-applovin"
+}
