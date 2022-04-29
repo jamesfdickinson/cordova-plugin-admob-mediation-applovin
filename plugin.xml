@@ -12,7 +12,7 @@
     <platform name="android">
         <preference name="APPLOVIN_SDK_VERSION" default="10.3.5" />
         <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION" default="10.3.5.0" />
-        <framework src="com.applovin:applovin-sdk:+:$APPLOVIN_SDK_VERSION" />
+        <framework src="com.applovin:applovin-sdk:$APPLOVIN_SDK_VERSION" />
         <framework src="com.google.ads.mediation:applovin:$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION" />
     </platform>
 
