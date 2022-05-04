@@ -22,7 +22,8 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="GoogleMobileAdsMediationAppLovin"  />
+                <pod name="AppLovinSDK" version="11.3.3" />
+                <pod name="GoogleMobileAdsMediationAppLovin" version="11.3.3.0" />
             </pods>
         </podspec>
     </platform>
