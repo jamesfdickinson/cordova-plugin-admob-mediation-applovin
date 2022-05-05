@@ -10,10 +10,11 @@
     <license>MIT</license>
 
     <platform name="android">
-        <preference name="APPLOVIN_SDK_VERSION" default="10.3.5" />
-        <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION" default="10.3.5.0" />
-        <framework src="com.applovin:applovin-sdk:$APPLOVIN_SDK_VERSION" />
-        <framework src="com.google.ads.mediation:applovin:$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION" />
+        <preference name="APPLOVIN_SDK_VERSION_ANDOIRD" default="10.3.5" />
+        <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_ANDOIRD" default="10.3.5.0" />
+        <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" default="~> 10.0.0.0" />
+        <framework src="com.applovin:applovin-sdk:$APPLOVIN_SDK_VERSION_ANDOIRD" />
+        <framework src="com.google.ads.mediation:applovin:$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_ANDOIRD" />
     </platform>
 
     <platform name="ios">
@@ -22,8 +23,7 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="AppLovinSDK" version="11.3.3" />
-                <pod name="GoogleMobileAdsMediationAppLovin" version="11.3.3.0" />
+                <pod name="GoogleMobileAdsMediationAppLovin" spec="$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" />
             </pods>
         </podspec>
     </platform>
