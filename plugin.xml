@@ -18,13 +18,15 @@
     </platform>
 
     <platform name="ios">
-      <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" default="~> 10.0.0.0" />
+      <preference name="APPLOVIN_SDK_VERSION_IOS" default="~> 11.0.0" />
+      <preference name="GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" default="~> 11.0.0.0" />
         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="GoogleMobileAdsMediationAppLovin" spec="$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" />
+                <pod name="AppLovinSDK" spec="$APPLOVIN_SDK_VERSION_IOS" />
+                <pod name="GoogleMobileAdsMediationAppLovin" spec="$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" />           
             </pods>
         </podspec>
     </platform>
