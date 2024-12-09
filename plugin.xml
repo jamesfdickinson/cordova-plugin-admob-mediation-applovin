@@ -20,7 +20,7 @@
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
-            <pods>
+            <pods use-frameworks="true">
                 <pod name="GoogleMobileAdsMediationAppLovin" spec="$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" />           
             </pods>
         </podspec>
