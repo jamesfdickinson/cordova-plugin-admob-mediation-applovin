@@ -21,7 +21,6 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="AppLovinSDK" spec="$APPLOVIN_SDK_VERSION_IOS" />
                 <pod name="GoogleMobileAdsMediationAppLovin" spec="$GOOGLE_ADS_MEDIATION_APPLOVIN_VERSION_IOS" />           
             </pods>
         </podspec>
